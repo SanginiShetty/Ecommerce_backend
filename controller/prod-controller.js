@@ -1,8 +1,8 @@
-let express= require("express")
+let express= require("express");
 
 
 let prod=(req,res)=>{
-    res.send("Product Through Controller")
+    res.send("Product Through Controller");
 }
 
 
