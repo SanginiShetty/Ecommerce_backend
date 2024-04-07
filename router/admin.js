@@ -1,9 +1,9 @@
 let express=require('express');
 
-let orderco= require("../controller/order-controller");
+let adminco= require("../controller/admin-controller");
 
 let router = express.Router();
 
-router.get('/order',orderco);
+router.get('/admin',adminco);
 
 module.exports=router;
